@@ -1,0 +1,38 @@
+body {
+    background-image: url("poly.webp"); /* Replace with your desired romantic background image */
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    position: relative;
+  }
+  
+  .question {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    background-color: #f0f0f0; /* Light gray for "Yes" button */
+    color: #333;
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  #noButton {
+    background-color: #e05e5e; /* Reddish color for "No" button */
+    
+  }
+  
